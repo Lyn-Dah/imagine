@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+#logo{
+    font-size: 40pt;
+    color: black;
+    text-decoration: none;
+    /* letter-spacing: -3.5pt; */
+    font-family: sans-serif;
+    padding: 0 0 0 30px ;
+}
+#dot{
+    font-size: 40pt;
+    text-decoration: none;
+    color: blue;
+}
+#nav-links{
+    display: flex;
+    list-style: none;
+    gap: 70pt;
+    justify-content: space-around;
+align-items: end;
+}
+#navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+#nav-links a{
+    text-decoration: none;
+
+}
+#nav-links a:hover{
+    color: blue;
+    
+
+}
+#hero{
+    display: flex;
+}
+#hero2{
+    font-size: 30pt;
+}
