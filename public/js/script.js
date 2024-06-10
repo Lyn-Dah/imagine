@@ -191,4 +191,34 @@ lastname.charAt(0);
 // String conversion
 String(2014);
 
+// Write a function that will add participants to our Google Classroom
+// function
+const participants = [];
+function addParticipant(email) {
+  // Add email to the participants;
+  participants.push(email);
+  // check if email was provided
+  if (!email) {
+    return 'Email not provided!';
+  }
+  // Check if email is valid
+  if (!email.includes('@')) {
+
+  }
+  // Add email to the participants;
+  participants.push(email);
+  // Notify them via mail
+  // return response
+  return 'Participant added!';
+}
+ 
+
+addParticipant('edulind99@gmail.com');
+
+
+// Arrays in JavaScript
+const alphabets = ['A', 'B', 'C', 'D'];
+alphabets;
+alphabets.join(' ');
+alphabets.join(' ').split(' ');
 
