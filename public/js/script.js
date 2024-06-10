@@ -142,9 +142,12 @@ login('lynny', '1234');
 78 / 4;
 78 % 4;
 
+
 // Comparison operators
 2 == '2';
 3 !== 2;
+2==='2';
+4==='3';
 
 //  Built-in Math functions
 Math.round(37 / 24);
@@ -153,10 +156,25 @@ Math.ceil(37 / 24);
 Math.random();
 Math.max(78, 12, 98, 14, 89);
 
+Math.ceil(Math.random()*1000000);
+
+
+//  Built-in Math functions
+Math.round(37 / 24);
+Math.floor(37 / 24);
+Math.ceil(37 / 24);
+Math.random();
+Math.max(78, 12, 98, 14, 89);
+
+Math.ceil(Math.random()*1000000);
+
 // string concatenation
 const firstname = 'Linda ';
 const lastname = 'Edu';
 firstname.trim() + ' ' + lastname.trim();
+firstname.trim() + ' ' + lastname.trim();
+
+
 
 // Template literal
 `${firstname.trim()} ${lastname.trim()}`;
