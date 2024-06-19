@@ -291,5 +291,37 @@ function birthdayGreeting() {
 }
 birthdayGreeting(user);
 
+//bottle class
+class Bottle{
+  constructor(color,shape,volume){
+    this.color = color;
+    this.shape = shape;
+    this.volume = volume;
+  }
+  getInfo(){
+        return`this is a ${this.color} ${this.shape} bottle with capacity of ${this.volume}ml`;
+  }
+}
+
+const bottle1 = new Bottle('black', 'ciecle',300);
+bottle1.getInfo();
+const bottle2 = new Bottle('blue', 'square',100);
+bottle2.getInfo();
+
+
+//object methods
+
+const bottle = {
+  color: "red",
+  shape: "square",
+  volume: 100,
+  getInfo: function(){
+    return`this is a ${this.color} ${this.shape} bottle with capacity of ${this.volume}ml`;
+  }
+ 
+}
+bottle.getInfo();
+
+
 
 
